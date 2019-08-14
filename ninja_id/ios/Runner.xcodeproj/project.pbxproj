@@ -325,7 +325,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.thenetninja.myapp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.thenetninja.ninjaId;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -454,7 +454,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.thenetninja.myapp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.thenetninja.ninjaId;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -477,7 +477,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.thenetninja.myapp;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.thenetninja.ninjaId;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};

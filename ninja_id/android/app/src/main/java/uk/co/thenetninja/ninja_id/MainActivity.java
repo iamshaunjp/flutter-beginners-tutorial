@@ -1,4 +1,4 @@
-package uk.co.thenetninja.myapp;
+package uk.co.thenetninja.ninja_id;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
