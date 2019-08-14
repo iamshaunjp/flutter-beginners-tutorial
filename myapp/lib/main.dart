@@ -13,14 +13,9 @@ class Home extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red[600]
       ),
-      body: Center(
-        child: IconButton(
-          onPressed: () {
-            print('you clicked me');
-          },
-          icon: Icon(Icons.alternate_email),
-          color: Colors.amber,
-        ),
+      body: Padding(
+        padding: EdgeInsets.all(20.0),
+        child: Text('hello, again')
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red[600],
@@ -30,31 +25,11 @@ class Home extends StatelessWidget {
   }
 }
 
-// snippets for icons and buttons
+// snippets for padding & margin
 
-//  Icon(
-//    Icons.airport_shuttle,
-//    color: Colors.lightBlue,
-//    size: 50.0
-//  ),
-
-//  RaisedButton(
-//    onPressed: () {
-//      print('you clicked me');
-//    },
-//    child: Text('click me'),
-//    color: Colors.lightBlue,
-//  ),
-
-//  FlatButton(
-//    onPressed: () {},
-//    child: Text('click me again'),
-//    color: Colors.amber
-//  ),
-
-//  RaisedButton.icon(
-//    onPressed: () {},
-//    icon: Icon(Icons.mail),
-//    label: Text('mail me'),
-//    color: Colors.amber,
+//  Container(
+//    margin: EdgeInsets.all(40.0),
+//    padding: EdgeInsets.all(30.0),
+//    color: Colors.grey[400],
+//    child: Text('hey, ninjas!'),
 //  ),
