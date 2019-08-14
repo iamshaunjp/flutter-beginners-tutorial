@@ -87,30 +87,12 @@ class NinjaCard extends StatelessWidget {
             Row(
               children: <Widget>[
                 Icon(
-                  Icons.alternate_email,
+                  Icons.email,
                   color: Colors.grey[400],
                 ),
                 SizedBox(width: 10.0),
                 Text(
                   'chun.li@thenetninja.co.uk',
-                  style: TextStyle(
-                    color: Colors.grey[400],
-                    fontSize: 18.0,
-                    letterSpacing: 1.0,
-                  ),
-                )
-              ],
-            ),
-            SizedBox(height: 20.0),
-            Row(
-              children: <Widget>[
-                Icon(
-                  Icons.phone_android,
-                  color: Colors.grey[400],
-                ),
-                SizedBox(width: 10.0),
-                Text(
-                  '+44 (0) 1234 567 891',
                   style: TextStyle(
                     color: Colors.grey[400],
                     fontSize: 18.0,
