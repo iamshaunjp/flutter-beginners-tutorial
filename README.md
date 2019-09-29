@@ -1,4 +1,4 @@
-# flutter-beginners-tutorial
+# flutter-beginners-tutorial lesson #4
 All course files for the Flutter Beginners playlist on The Net Ninja YouTube channel.
 
 ## How to use these files
@@ -7,3 +7,4 @@ Each lesson in the playlist has it's own branch in this repository. To see the c
 **important** - if you are cloning the repo to your desktop, you will need to perform a packages get / pub get to install any dependencies that the project may have at that point of the course.
 
 **Link to playlist on YouTube**
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ
