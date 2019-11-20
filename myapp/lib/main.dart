@@ -14,11 +14,12 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.red[600]
       ),
       body: Center(
-        child: Image.asset('assets/space-3.jpg'),
-      ),
+        child image:AssetImage('assets/space-3.jpg'),
+     ) 
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red[600],
-        child: Text('click'),
+        child: Text('click'), 
+
       ),
     );
   }
