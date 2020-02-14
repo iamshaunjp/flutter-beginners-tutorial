@@ -21,7 +21,7 @@ class WorldTime {
 
       // get properties from json
       String datetime = data['datetime'];
-      String offset = data['utc_offset'].substring(1,3);
+      String offset = data['utc_offset'].substring(0,3);
 
       // create DateTime object
       DateTime now = DateTime.parse(datetime);
