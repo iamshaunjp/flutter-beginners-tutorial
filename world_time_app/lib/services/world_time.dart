@@ -21,11 +21,13 @@ class WorldTime {
 
       // get properties from json
       String datetime = data['datetime'];
-      String offset = data['utc_offset'].substring(1,3);
+      String offset = data['utc_offset'];
+      String offset_h = data['utc_offset'].substring(1, 3);
+      String offset_m = data['utc_offset'].substring(4, 6);
 
       // create DateTime object
       DateTime now = DateTime.parse(datetime);
-      now = now.add(Duration(hours: int.parse(offset)));
+      now = now.add(Duration(hours: int.parse(offset_h), minutes: int.parse(offset_m)));
 
       // set the time property
       isDaytime = now.hour > 6 && now.hour < 20 ? true : false;
