@@ -1,5 +1,5 @@
 # flutter-beginners-tutorial
-###(change the branch to get the different lessons)
+**(change the branch to get the different lessons)**
 All course files for the Flutter Beginners playlist on The Net Ninja YouTube channel.
 
 ## How to use these files
