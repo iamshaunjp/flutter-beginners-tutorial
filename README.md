@@ -10,6 +10,5 @@ Each lesson in the playlist has it's own branch in this repository. To see the c
 
 **Link to playlist on YouTube**
  Modern JavaScript - [link](https://www.youtube.com/redirect?event=video_description&q=https%3A%2F%2Fwww.thenetninja.co.uk%2Fudemy%2Fmodern-javascript&redir_token=QUFFLUhqa3lpVHUxbkxzWFQwcFdxMkhaM0t3MDM4d3IxQXxBQ3Jtc0tra1BXcjlsUDdjQV9hTTVkSzVKMnVrUU9kMWdMcmhERlpIeFlac3lCdVNDYlEwcnBXaGRwZy0ySHU3aml4LXZOeVdDeFVmMkhBS0RjaHdFdmlFTVVFcGhYMi1TQmg4cV9sSmdHOVpCZ3d2elE4THZ4Yw%3D%3D&v=sZw8opj38Vo)
- Vue JS  & Firebase - http://www.thenetninja.co.uk/udemy/vu...
- D3.js & Firebase - https://www.thenetninja.co.uk/udemy/d...
 
+flutter tutorials:https://www.youtube.com/watch?v=sZw8opj38Vo
