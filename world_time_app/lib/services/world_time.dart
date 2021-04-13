@@ -18,10 +18,11 @@ class WorldTime {
     // get properties from json
     String datetime = data['datetime'];
     String offset = data['utc_offset'].substring(1,3);
+    var min_offset = data['utc_offset'].substring(4);
 
     // create DateTime object
     DateTime now = DateTime.parse(datetime);
-    now = now.add(Duration(hours: int.parse(offset)));
+    now = now.add(Duration(hours: int.parse(offset), minutes: int.parse(min_offset) ));
 
     print(now);
 
