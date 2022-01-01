@@ -4,8 +4,8 @@ import 'quote.dart';
 class QuoteCard extends StatelessWidget {
 
   final Quote quote;
-  final Function delete;
-  QuoteCard({ this.quote, this.delete });
+  final Function() delete;
+  QuoteCard({ required this.quote, required this.delete });
 
   @override
   Widget build(BuildContext context) {
