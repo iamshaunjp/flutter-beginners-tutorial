@@ -10,6 +10,7 @@ void main() => runApp(MaterialApp(
       child: Text('hello, ninjas!'),
     ),
     floatingActionButton: FloatingActionButton(
+      onPressed: () {},
       child: Text('click'),
     ),
   ),
